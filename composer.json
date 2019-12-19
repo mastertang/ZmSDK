@@ -1,0 +1,26 @@
+{
+  "name": "mastertang/zmsdk",
+  "description": "zm sdk",
+  "keywords": [
+    "sdk"
+  ],
+  "time": "2019-12-18",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ZmSDK\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "RuiHua Tang",
+      "email": "547740900@qq.com",
+      "homepage": "https://github.com/",
+      "role": "Programmer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "aliyuncs/oss-sdk-php": "dev-master"
+  }
+}
